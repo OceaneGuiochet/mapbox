@@ -1,95 +1,75 @@
-import Image from 'next/image'
 import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <>
+    <header>
+
+      <nav className={styles.nav}>
+
+        <img className={styles.firtimg} src='https://logodix.com/logo/1863652.png'/>
+
+        <div className={styles.navitem}>
+          
+            <div>Products</div>
+            <div>Solutions</div>
+            <div>Developers</div>
+            <div>Compagny</div>
+
+            <div>Customers</div>
+            <div>Pricing</div>
+            <div>Blog</div>
         </div>
-      </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+        <div className={styles.navitem2}>
+          <div className={styles.login}>Log in</div>
+          <div className={styles.signup}>Sign up</div>
+        </div>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+      </nav>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+    </header>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
+    <main>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      <section className={styles.firstsection}>
+
+        <h1 className={styles.firsth1}>Maps and location<br/> for developers</h1>
+
+        <h2 className={styles.firsth2}>Precise location data and powerful developer<br/> tools to change the way we navigate the world.</h2>
+
+        <div className={styles.firstbutton}>Start mapping for free</div>
+
+      </section>
+
+      <section className={styles.secondsection}>
+
+        <p className={styles.paragraph}>TRUSTED BY THE INDUSTRY LEADERS</p>
+
+        <div className={styles.logo}>
+
+          <img src=''/>
+          <img src='https://images.squarespace-cdn.com/content/v1/571fabf01d07c0a2bb977faa/1538177218604-EJR939BMIZ97E1Q3F0TV/cnn-logo-gray.png'/>
+          <img src='https://orbitdesignstudio.com/cms/resources/clients/bmw.png'/>
+          <img src=''/>
+          <img src=''/>
+
+          <img src=''/>
+          <img src=''/>
+          <img src=''/>
+          <img src=''/>
+          <img src=''/>
+
+        </div>
+
+        <p>View customer stories </p>
+
+      </section>
+
+          
+
     </main>
+
+    </>
   )
 }
