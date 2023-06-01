@@ -60,14 +60,18 @@
 /*première section*/
 
 
-
 .firstsection{
+  padding: 176px 40px 70px;
+}
+
+.firstdiv{
   display: flex;
   justify-content: center;
   flex-direction: column;
   height: 100%;
   align-items: center;
-  margin: 150px 76px;
+  margin: 0 76px;
+
 }
 
 .firsth1{
@@ -109,27 +113,56 @@
 
 
 
-/*2ème section*/
 
-
-.secondsection{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 100%;
-  align-items: center;
-}
 
 .paragraph{
   text-align: center;
   font-size: 12px;
   font-weight: 600;
   margin: 0 0 0px;
+  letter-spacing: .1em;
+  margin-bottom: 60px;
 }
 
-.logo{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+.logoblock{
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-column-gap: 78px;
+  grid-row-gap: 68px;
+  margin-bottom: 60px;
+  width: 100%;
+  max-width: 100%;
 }
 
+.logorow {
+  text-align: center;
+}
+
+
+.imglogo{
+  max-width: 100%;
+  width: 70px;
+}
+
+.paragraph2{
+  perspective: 2000px;
+  color: #007afc;
+  letter-spacing: 0;
+  font-weight: 500;
+  display: inline;
+  position: relative;
+  margin-right: 4px;
+  font-size: 14px;
+  
+}
+
+.paragraph2:hover{
+  color: #378fed;
+  cursor: pointer;
+}
+
+
+
+
+/*2ème section*/

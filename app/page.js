@@ -30,9 +30,9 @@ export default function Home() {
 
     </header>
 
-    <main>
+    <section className={styles.firstsection}>
 
-      <section className={styles.firstsection}>
+      <div className={styles.firstdiv}>
 
         <h1 className={styles.firsth1}>Maps and location<br/> for developers</h1>
 
@@ -40,35 +40,59 @@ export default function Home() {
 
         <div className={styles.firstbutton}>Start mapping for free</div>
 
-      </section>
+        <p className={styles.paragraph}>TRUSTED BY THE INDUSTRY LEADERS</p>
+
+
+
+
+
+        <div className={styles.logoblock}>
+
+          <div className={styles.logorow}>
+            <img className={styles.imglogo} src='https://assets.stickpng.com/images/5847f598cef1014c0b5e4897.png'/>
+          </div>
+          <div className={styles.logorow}>
+            <img className={styles.imglogo} src='https://assets.stickpng.com/images/5847f598cef1014c0b5e4897.png'/>
+          </div>
+          <div className={styles.logorow}>
+            <img className={styles.imglogo} src='https://assets.stickpng.com/images/5847f598cef1014c0b5e4897.png'/>
+          </div>
+          <div className={styles.logorow}>
+            <img className={styles.imglogo} src='https://assets.stickpng.com/images/5847f598cef1014c0b5e4897.png'/>
+          </div>
+          <div className={styles.logorow}>
+            <img className={styles.imglogo} src='https://assets.stickpng.com/images/5847f598cef1014c0b5e4897.png'/>
+          </div>
+
+          <div className={styles.logorow}>
+            <img className={styles.imglogo} src='https://assets.stickpng.com/images/5847f598cef1014c0b5e4897.png'/>
+          </div>
+          <div className={styles.logorow}>
+            <img className={styles.imglogo} src='https://assets.stickpng.com/images/5847f598cef1014c0b5e4897.png'/>
+          </div>
+          <div className={styles.logorow}>
+            <img className={styles.imglogo} src='https://assets.stickpng.com/images/5847f598cef1014c0b5e4897.png'/>
+          </div>
+          <div className={styles.logorow}>
+            <img className={styles.imglogo} src='https://assets.stickpng.com/images/5847f598cef1014c0b5e4897.png'/>
+          </div>
+          <div className={styles.logorow}>
+            <img className={styles.imglogo} src='https://assets.stickpng.com/images/5847f598cef1014c0b5e4897.png'/>
+          </div>
+           
+
+      </div>
+
+      <p className={styles.paragraph2}>View customer stories </p>
+      </div>
+    </section>
 
       <section className={styles.secondsection}>
 
-        <p className={styles.paragraph}>TRUSTED BY THE INDUSTRY LEADERS</p>
-
-        <div className={styles.logo}>
-
-          <img src=''/>
-          <img src='https://images.squarespace-cdn.com/content/v1/571fabf01d07c0a2bb977faa/1538177218604-EJR939BMIZ97E1Q3F0TV/cnn-logo-gray.png'/>
-          <img src='https://orbitdesignstudio.com/cms/resources/clients/bmw.png'/>
-          <img src=''/>
-          <img src=''/>
-
-          <img src=''/>
-          <img src=''/>
-          <img src=''/>
-          <img src=''/>
-          <img src=''/>
-
-        </div>
-
-        <p>View customer stories </p>
-
-      </section>
-
+         
           
+      </section>    
 
-    </main>
 
     </>
   )
