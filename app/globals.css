@@ -43,5 +43,6 @@ p{
   color: darkgray;
   font-size: 20px;
   line-height: 32px;
+  position: relative;
 }
 

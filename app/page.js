@@ -88,7 +88,7 @@ export default function Home() {
       <div className={styles.seconddiv}>
 
 
-        <h2> Navigation</h2>
+        <h2>Navigation</h2>
 
         <p className={styles.secondp}>Mapbox provides powerful routing engines, accurate,<br/> traffic-powered travel times, and intuitive turn-by-turn<br/> directions to help you build engaging navigation<br/> experiences.</p>
 
@@ -116,7 +116,7 @@ export default function Home() {
         <div>
           <h2>MapboxStudio</h2>
 
-          <p>Mapbox Studio is like Photoshop, for maps. We give<br/> designers control over everything from colors and fonts, to<br/> 3D features and camera angles, to the pitch of the map as a<br/> car enters a turn.</p>
+          <p className={styles.thirdp}>Mapbox Studio is like Photoshop, for maps. We give designers control over everything from colors and fonts, to 3D features and camera angles, to the pitch of the map as a car enters a turn.</p>
         
           <div>
             <div className={styles.thirdbutton}>Learn about Studio</div>
@@ -126,7 +126,135 @@ export default function Home() {
       </div>
     </section>    
 
+    <section className={styles.fourthsection}>
+      <div>
 
+        <h2>Maps</h2>
+
+        <p className={styles.secondp}>Our APIs, SDKs, and live updating map data give<br/> developers tools to build better mapping, navigation, and<br/> search experiences across platforms.</p>
+
+        <div className={styles.center}>
+
+          <div className={styles.fourthbutton}>Learn about Maps</div>
+
+        </div>
+
+        <img className={styles.img4} src='https://assets-global.website-files.com/6050a76fa6a633d5d54ae714/6087dab60ab31f1710916725_maps-1(home).png'/>
+
+        <img className={styles.img5} src='https://assets-global.website-files.com/6050a76fa6a633d5d54ae714/6087fb8a4bbdad2cdfaf8dd3_maps-2(home).png'/>
+
+      </div>
+    </section>
+
+
+    <section className={styles.fivesection}>
+      <div className={styles.fivediv}>
+
+        <div className={styles.frmimg}>
+          <img className={styles.img6} src='https://assets-global.website-files.com/6050a76fa6a633d5d54ae714/6086db34abdf394fdb0c964c_search(home).png'/>
+        </div>
+
+        <div>
+          <h2>Search</h2>
+
+          <p className={styles.fivep}>Search and geocoding is tied to everything we build — maps, navigation, AR — and underlies every app that helps humans explore their world.</p>
+        
+          <div>
+            <div className={styles.fivebutton}>Discover Search </div>
+          </div>
+
+        </div>
+      </div>
+    </section>    
+
+    <section className={styles.sixsection}>
+
+      <div className={styles.sixdiv}>
+        <div className={styles.banner}>
+
+          <div className={styles.frmtexte}>
+            
+            <h2 className={styles.secondwhiteh2}>CUSTOMER SHOWCASE</h2>
+
+            <h2>Maps</h2>
+          
+            <p className={styles.sixp}>Our APIs, SDKs, and live updating map data give<br/> developers tools to build better mapping, navigation, and<br/> search experiences across platforms.</p>
+
+            <div className={styles.sixbutton}>Learn about Maps</div>
+            
+          </div>
+
+          <img className={styles.img7} src='https://assets-global.website-files.com/6050a76fa6a633d5d54ae714/6076f5a324729860787986cc_straightaway(home-banner).jpeg'/>
+
+        </div>
+      </div>
+    </section>
+
+    <section className={styles.sevensection}>
+      <div className={styles.sevendiv}>
+
+        <div className={styles.frmimg}>
+          <img className={styles.img8} src='https://assets-global.website-files.com/6050a76fa6a633d5d54ae714/621623f52c9bb327121cbdbc_vision(home).png'/>
+        </div>
+
+        <div>
+          <h2>Vision</h2>
+
+          <p className={styles.sevenp}>The Mapbox Vision SDK describes every curb, lane, street<br/> sign, and road hazard it sees as data. Developers use the<br/> SDK's AI-powered semantic segmentation, object<br/> detection, and classification to deliver precise navigation<br/> guidance, display driver assistance alerts, and<br/> detect and map road incidents.</p>
+        
+          <div>
+            <div className={styles.sevenbutton}>Discover Vision </div>
+          </div>
+
+        </div>
+      </div>
+    </section>  
+
+
+
+    <section className={styles.eightsection}>
+      <div className={styles.eightdiv}>
+
+        
+
+        <div>
+          <h2>MapboxStudio</h2>
+
+          <p className={styles.eightp}>Mapbox Studio is like Photoshop, for maps. We give designers control over everything from colors and fonts, to 3D features and camera angles, to the pitch of the map as a car enters a turn.</p>
+        
+          <div>
+            <div className={styles.eightbutton}>Learn about Studio</div>
+          </div>
+
+        </div>
+
+        <div className={styles.frmimg}>
+          <img className={styles.img9} src='https://assets-global.website-files.com/6050a76fa6a633d5d54ae714/6076fd12ae76e59d68947232_data(home).jpeg'/>
+        </div>
+
+      </div>
+    </section>    
+
+
+    <section className={styles.ninesection}>
+      <div className={styles.ninediv}>
+
+        <div className={styles.frmimg}>
+          <img className={styles.img10} src='https://assets-global.website-files.com/6050a76fa6a633d5d54ae714/60770114d539fa3def12c233_atlas(home).jpeg'/>
+        </div>
+
+        <div>
+          <h2>Atlas</h2>
+
+          <p className={styles.ninep}>With Atlas, you can self-host Mapbox maps and geocoding APIs, Streets, Satellite, and Terrain tilesets, and Mapbox Studio on your network, behind a firewall, or even air-gapped. Use Atlas to power on-premises applications using Mapbox GL JS v2 and Mapbox Maps SDKs for iOS and Android.</p>
+        
+          <div>
+            <div className={styles.ninebutton}>Self-host with Atlas </div>
+          </div>
+
+        </div>
+      </div>
+    </section> 
     </>
   )
 }
