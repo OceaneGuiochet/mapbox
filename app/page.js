@@ -200,7 +200,7 @@ export default function Home() {
         <div>
           <h2>Vision</h2>
 
-          <p className={styles.sevenp}>The Mapbox Vision SDK describes every curb, lane, street<br/> sign, and road hazard it sees as data. Developers use the<br/> SDK's AI-powered semantic segmentation, object<br/> detection, and classification to deliver precise navigation<br/> guidance, display driver assistance alerts, and<br/> detect and map road incidents.</p>
+          <p className={styles.sevenp}>The Mapbox Vision SDK describes every curb, lane, street<br/> sign, and road hazard it sees as data. Developers use the<br/> SDK&apos;s AI-powered semantic segmentation, object<br/> detection, and classification to deliver precise navigation<br/> guidance, display driver assistance alerts, and<br/> detect and map road incidents.</p>
         
           <div>
             <div className={styles.sevenbutton}>Discover Vision </div>
