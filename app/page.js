@@ -219,12 +219,12 @@ export default function Home() {
           
 
           <div>
-            <h2>MapboxStudio</h2>
+            <h2>Data</h2>
 
-            <p className={styles.eightp}>Mapbox Studio is like Photoshop, for maps. We give designers control over everything from colors and fonts, to 3D features and camera angles, to the pitch of the map as a car enters a turn.</p>
+            <p className={styles.eightp}>Our data is powered by hundreds of data sources, and a distributed global users base of more than half a billion monthly active users.</p>
           
             <div>
-              <div className={styles.eightbutton}>Learn about Studio</div>
+              <div className={styles.eightbutton}>Learn about Data </div>
             </div>
 
           </div>
