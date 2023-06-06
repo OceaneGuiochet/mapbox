@@ -382,26 +382,31 @@ export default function Home() {
 
           <div className={styles.column}>
           <h3 className={styles.h3}>SOLUTIONS</h3>
-          
-            <ul>
-              <li>Logistics</li>
-              <li>Automotive</li>
-              <li>Outdoors</li>
-              <li>Retail</li>
-              <li>Telecommunications</li>
-              <li>Travel</li>
-              <li>Weather</li>
-              <li>Business Intelligence</li>
-              <li>Real Estate</li>
-            </ul>
-            <ul>
+
+            <div className={styles.columndiv}>
+              <ul>
+                <li>Logistics</li>
+                <li>Automotive</li>
+                <li>Outdoors</li>
+                <li>Retail</li>
+                <li>Telecommunications</li>
+                <li>Travel</li>
+                <li>Weather</li>
+                <li>Business Intelligence</li>
+                <li>Real Estate</li>
+              </ul>
+            </div>
+
+            <div className={styles.columndiv}>
             <h3 className={styles.h3}>USE CASES</h3>
+            <ul>
               <li>Data visualization</li>
               <li>Store locator</li>
               <li>Turn-by-turn navigation</li>
               <li>On-Demand Delivery</li>
             </ul>
             </div>
+          </div>
 
             <div className={styles.column}>
             <h3 className={styles.h3}>COMPANY</h3>
