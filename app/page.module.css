@@ -164,22 +164,23 @@
   padding: 90px 40px 84px;
   display: flex;
   justify-content: center;
-  text-align: left;
 }
 
 .seconddiv{
-  margin: 0 79.6px;
+  margin: 0 auto;
 
 }
 
 .secondp{
   margin-top: 0;
   margin-bottom: 24px;
+  text-align: left;
+  
 }
 
 .center{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .secondbutton{
@@ -217,7 +218,7 @@
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  display: flex;
   justify-content: center;
   padding: 90px 40px;
 }
@@ -320,7 +321,7 @@
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  display: flex;
   justify-content: center;
   padding: 90px 40px;
 }
@@ -370,7 +371,8 @@
 
 .sixsection{
   padding: 90px 40px;
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -443,7 +445,7 @@
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  display: flex;
   justify-content: center;
   padding: 90px 40px;
 }
@@ -497,7 +499,7 @@
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  display: flex;
   justify-content: center;
   padding: 90px 40px;
 }
@@ -551,7 +553,7 @@
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  display: flex;
   justify-content: center;
   padding: 90px 40px;
 }
@@ -601,7 +603,8 @@
 
 .tensection{
   padding: 90px 40px;
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -674,8 +677,9 @@
 /*footer*/
 
 .footer{
-  display: block;
+  display: flex;
   padding: 120px 40px 60px;
+  justify-content: center;
 }
 
 .container{
@@ -746,6 +750,7 @@
   color: darkgray;
 }
 
+
 .txtmapbox {
   margin-right: 40px;
 }
@@ -755,6 +760,11 @@
   grid-template-columns: repeat(7, auto);
   grid-gap: 10px;
   align-items: center;
+}
+
+.grid3 a:hover{
+  color: #007AFC;
+  cursor: pointer;
 }
 
 .frmitems {
@@ -767,9 +777,3 @@
   max-width: 100%;
   width: 30px;
 }
-
-
-
-
-
-

@@ -445,13 +445,13 @@ export default function Home() {
               <div className={styles.txtmapbox}>All Right Reserved © Mapbox</div>
 
               <div className={styles.grid3}>
-                <div>Terms</div>
+                <a>Terms</a>
                 <div>|</div>
-                <div>Privacy</div>
+                <a>Privacy</a>
                 <div>|</div>
-                <div>Security</div>
+                <a>Security</a>
                 <div>|</div>
-                <div>Your California Privacy Choices</div>
+                <a>Your California Privacy Choices</a>
               </div>
             </div>
 
