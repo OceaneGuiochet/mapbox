@@ -225,24 +225,19 @@
 .secondsection{
   padding: 90px 40px 84px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  margin-bottom: 550px;
 }
 
 .seconddiv{
-  margin: 0 auto;
+  margin: 0;
 
 }
 
 .secondp{
   margin-top: 0;
   margin-bottom: 24px;
-  text-align: left;
   
-}
-
-.center{
-  display: flex;
-  align-items: flex-start;
 }
 
 .secondbutton{
@@ -265,12 +260,16 @@
 
 .img1{
   max-width: 100%;
-  width: 200px;
+  width: 260px;
+  position: absolute;
+  left: 5%;
 }
 
 .img2{
   max-width: 100%;
   width: 800px;
+  position: absolute;
+  right: 3%;
 }
 
 /*3ème section*/
@@ -330,22 +329,26 @@
 
 
 .fourthsection{
-  padding: 70px 40px 90px;
+  padding: 90px 40px 84px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  margin-bottom: 350px;
 }
-
 
 .fourthdiv{
-  margin: 0 79.6px;
-}
+  margin: 0 auto;
 
+}
 
 .fourthp{
   margin-top: 0;
   margin-bottom: 24px;
+  
 }
 
+.center{
+  padding-bottom: 30px;
+}
 
 .fourthbutton{
   background-color: transparent;
@@ -365,13 +368,15 @@
 }
 
 .img4{
-  max-width: 100%;
-  width: 450px;
+  width: 48%;
+  position: absolute;
+  left: 0;
 }
 
 .img5{
-  max-width: 100%;
-  width: 550px;
+  width: 48%;
+  position: absolute;
+  right: 0;
 }
 
 
@@ -455,6 +460,10 @@
   justify-content: center;
 }
 
+.imgbanner{
+  padding: 10px;
+}
+
 .frmtexte{
   display: flex;
   flex-direction: column;
@@ -496,6 +505,8 @@
 .img7{
   max-width: 100%;
   width: 500px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
 }
 
 

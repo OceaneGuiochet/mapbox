@@ -204,11 +204,11 @@ export default function Home() {
               
               <h2 className={styles.secondwhiteh2}>CUSTOMER SHOWCASE</h2>
 
-              <h2>Maps</h2>
+              <img className={styles.imgbanner} src='https://assets-global.website-files.com/6050a76fa6a633d5d54ae714/6076f540d539fa8c97126f0b_straigtaway.svg' alt=''/>
             
-              <p className={styles.sixp}>Our APIs, SDKs, and live updating map data give<br/> developers tools to build better mapping, navigation, and<br/> search experiences across platforms.</p>
+              <p className={styles.sixp}>Plan and optimize your route at the <br/>snap of a photo</p>
 
-              <div className={styles.sixbutton}>Learn about Maps</div>
+              <div className={styles.sixbutton}>Read customer showcase</div>
               
             </div>
 
