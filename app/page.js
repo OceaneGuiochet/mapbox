@@ -4,17 +4,44 @@ export default function Home() {
   return (
     <>
     <header>
+
       <nav className={styles.nav}>
 
         <img className={styles.firtimg} src='https://logodix.com/logo/1863652.png'/>
 
         <div className={styles.navitem}>
           
+          <li className={styles.scrollingnav}>
             <div>Products</div>
-            <div>Solutions</div>
-            <div>Developers</div>
-            <div>Compagny</div>
+            <ul className={styles.subnav}>
+              <li>option1</li>
+              <li>option2</li>
+            </ul>
+          </li>
 
+          <li className={styles.scrollingnav}>
+            <div>Solutions</div>
+            <ul className={styles.subnav}>
+              <li>option1</li>
+              <li>option2</li>
+            </ul>
+          </li>
+
+          <li className={styles.scrollingnav}>
+            <div>Developers</div>
+            <ul className={styles.subnav}>
+              <li>option1</li>
+              <li>option2</li>
+            </ul>
+          </li>
+
+          <li className={styles.scrollingnav}>
+            <div>Compagny</div>
+            <ul className={styles.subnav}>
+              <li><a>option1</a></li>
+              <li><a>option2</a></li>
+            </ul>
+          </li>  
             <div>Customers</div>
             <div>Pricing</div>
             <div>Blog</div>

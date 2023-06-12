@@ -20,6 +20,7 @@ header {
   padding: 0 20px;
   max-width: 100%;
   height: auto;
+  z-index: 99999;
 }
 
 h1{
@@ -45,5 +46,4 @@ p{
   position: relative;
   margin-top: 0;
 }
-
 
