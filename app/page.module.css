@@ -255,7 +255,7 @@
   max-width: 100%;
   width: 250px;
   position: static;
-
+  margin-left: 120px;
   margin-right: 40px;
 }
 
@@ -326,12 +326,11 @@
   padding: 90px 40px 84px;
   display: flex;
   justify-content: left;
-  margin-bottom: 350px;
+  margin-bottom: 550px;
 }
 
 .fourthdiv{
   margin: 0 auto;
-
 }
 
 .fourthp{
