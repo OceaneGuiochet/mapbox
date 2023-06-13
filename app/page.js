@@ -38,8 +38,8 @@ export default function Home() {
           <li className={styles.scrollingnav}>
             <div>Compagny</div>
             <ul className={styles.subnav}>
-              <li><a>option1</a></li>
-              <li><a>option2</a></li>
+              <li>option1</li>
+              <li>option2</li>
             </ul>
           </li>  
             <div>Customers</div>
